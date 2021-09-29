@@ -1,0 +1,96 @@
+@charset="utf-8";
+.carousel-control-prev-icon{
+
+	background-color: red;
+	border-radius: 30%;
+}
+
+
+.carousel-control-next-icon{
+
+	background-color: red;
+	border-radius: 30%;																	
+}
+
+
+.ux-i{
+
+	width: 100px;
+	height:100px;
+	margin-top: 20px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.ux-i:hover{
+
+	background-color: green;
+	cursor: pointer;
+	transition: 1s;
+}
+@media(max-width: 768px){
+
+
+	.ux-i{
+
+	width: 100px;
+	height:100px;
+	margin:20px auto;
+	background-color: red;
+	border-radius: 50%;
+}
+}
+
+
+.ux-ii{
+
+	width: 100px;
+	height:100px;
+	margin-top: 20px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.ux-ii:hover{
+
+	background-color: green;
+	cursor: pointer;
+	transition: 1s;
+}
+@media(max-width: 768px){
+
+
+	.ux-ii{
+
+	width: 100px;
+	height:100px;
+	margin:20px auto;
+	background-color: red;
+	border-radius: 50%;
+}
+}
+
+.bg-img{
+
+	filter: hue-rotate(90deg);
+}
+
+.box{
+
+	width: 97.7%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+}
+
+@media(max-width: 768px){
+
+	.box{
+
+	width: 93.3%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+}
+}
+
